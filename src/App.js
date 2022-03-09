@@ -5,10 +5,11 @@ import Movie from "./components/Movie";
 import Detail from "./routes/Detail";
 
 function App() {
+  console.log(process.env.PUBLIC_URL);
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/movie/:id" element={<Detail />}></Route>
       </Routes>
     </Router>
