@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+}
+.title {
+  text-align: center;
+}
